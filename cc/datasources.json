@@ -1,0 +1,31 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "cloudcontracts": {
+    "host": "10.6.38.10",
+    "port": 3306,
+    "database": "cloudcontracts",
+    "password": "yepOuvgasGirjuvBetgen1",
+    "name": "cloudcontracts",
+    "user": "cc_pcodemo",
+    "connector": "mysql"
+  },
+  "cm4it": {
+    "host": "10.6.38.10",
+    "port": 3306,
+    "database": "cc_pcodemo",
+    "password": "yepOuvgasGirjuvBetgen1",
+    "name": "cm4it",
+    "user": "cc_pcodemo",
+    "connector": "mysql"
+  },
+  "storage": {
+    "name": "storage",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "storage",
+    "maxFileSize": "52428800"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "listen": {
+    "ip": "0.0.0.0",
+    "port": 3000
+  },
+  "db": {
+    "host": "localhost",
+    "port": "3306",
+    "username": "user",
+    "password": "password",
+    "database": "cloudcontracts"
+  },
+  "cloudcontractsProxy": {
+    "allowedUsers": [
+      "user"
+    ],
+    "url": "https://localhost:3001/api/Users"
+  },
+  "postoffice": {
+    "url": "http://postoffice:3000/"
+  },
+  "rancher": {
+    "projectId": "1a40",
+    "host": "rancher-server",
+    "port": 8080,
+    "username": "user",
+    "password": "password"
+  },
+  "nfs": {
+    "host": "nfs-server",
+    "exportPath": "/srv/nfs"
+  }
+}

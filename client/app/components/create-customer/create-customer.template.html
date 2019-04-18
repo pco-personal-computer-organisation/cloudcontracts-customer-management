@@ -1,0 +1,38 @@
+<div class="login-body">
+  <div class="container-fluid login-container">
+    <div class="panel panel-default login-panel">
+    <div class="panel-body">
+      <img class="center-block" src="logo.jpg">
+      <br>
+      <form name="loginForm" ng-submit="$ctrl.create()">
+        <div class="form-group">
+          <input type="text" name="inputFirma" class="form-control input-lg" placeholder="Firma" ng-model="$ctrl.values.firma" required>
+        </div>
+        <div class="form-group">
+          <input type="text" name="inputKdnr" class="form-control input-lg" placeholder="Kundennummer" ng-model="$ctrl.values.kdnr" required>
+        </div>
+        <div class="form-group">
+          <input type="number" name="inputMaxUsers" class="form-control input-lg" placeholder="Anzahl Benutzer" ng-model="$ctrl.values.maxUsers" required>
+        </div>
+        <div class="form-group">
+          <input type="text" name="inputVorname" class="form-control input-lg" placeholder="Vorname" autofocus ng-model="$ctrl.values.vorname" required>
+        </div>
+        <div class="form-group">
+          <input type="text" name="inputName" class="form-control input-lg" placeholder="Nachname" ng-model="$ctrl.values.name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" name="inputEmail" class="form-control input-lg" placeholder="E-Mail-Adresse" ng-model="$ctrl.values.email" required>
+        </div>
+        <div class="form-group">
+          <button class="btn btn-default btn-login btn-lg">Erstellen</button>
+        </div>
+      </form>
+    </div>
+    <!--<div class="panel-footer">
+      <p class="pull-left login-footer-text"><a href="https://www.cloudcontracts.de">Produktseite</a></p>
+      <p class="pull-right login-footer-text"><a href="https://www.cloudcontracts.de/impressum.html">Impressum</a></p>
+      <div class="clearfix"></div>
+    </div>-->
+    </div>
+  </div>
+</div>
